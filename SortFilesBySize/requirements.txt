@@ -1,0 +1,19 @@
+# File Automation Suite - Requirements
+# Python 3.8+
+
+# System Monitoring
+psutil>=5.9.0
+
+# GUI Framework
+# Note: tkinter is built into Python, no separate install needed
+
+# Optional Dependencies (for enhanced features)
+# watchdog>=3.0.0  # For file system monitoring
+# rumps>=0.4.0     # For macOS menu bar apps (macOS only)
+
+# Development Dependencies
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0

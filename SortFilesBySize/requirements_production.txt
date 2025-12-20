@@ -1,0 +1,20 @@
+# File Automation Suite - Production Requirements
+# Python 3.8+
+
+# Core Dependencies (Required)
+rumps>=0.4.0         # Native macOS menu bar app
+psutil>=5.9.0        # System monitoring (cross-platform)
+
+# Build Dependencies
+py2app>=0.28.0       # Package Python app as macOS bundle
+setuptools>=65.0.0   # Build system
+
+# Optional Dependencies (Development)
+pytest>=7.4.0        # Testing framework
+pytest-cov>=4.1.0    # Code coverage
+black>=23.0.0        # Code formatting
+flake8>=6.0.0        # Linting
+mypy>=1.0.0          # Type checking
+
+# Note: tkinter not needed for menu bar version
+# Note: Standard library modules (pathlib, heapq, subprocess) are built-in

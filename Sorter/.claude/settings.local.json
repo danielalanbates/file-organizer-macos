@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/daniel/Documents/aicode/**)",
+      "Bash(find:*)",
+      "Bash(awk:*)",
+      "Bash(for dir in /Users/daniel/Documents/aicode/*/)",
+      "Bash(ls:*)",
+      "Bash(done)",
+      "Bash(cat:*)",
+      "Bash(for dir in Game_Assistant Botcomplishment Horizon Web_scraper Work Roblox NutritionPlanner)",
+      "Bash(do [ -d \"/Users/daniel/Documents/aicode/$dir\" ])",
+      "Bash(echo:*)",
+      "Bash(head:*)",
+      "Bash(xargs:*)",
+      "Bash(__NEW_LINE__ echo \"=== Meeting notes extension ===\")",
+      "Bash(__NEW_LINE__ echo \"=== App_developer ===\")",
+      "Bash(__NEW_LINE__ echo \"=== Analysis Documents Created ===\")",
+      "Bash(__NEW_LINE__ ls -lh /Users/daniel/Documents/aicode/)",
+      "Bash(test:*)",
+      "Bash(/dev/null /Users/daniel/Documents/aicode/WebScraperData)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

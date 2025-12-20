@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod +x /Users/daniel/Documents/aicode/CodeMaster/update_app.sh)",
+      "Bash(/Users/daniel/Documents/aicode/CodeMaster/update_app.sh)",
+      "Bash(open /Users/daniel/Documents/aicode/CodeMaster/assets/icon.png)",
+      "Bash(chmod +x /Users/daniel/Documents/aicode/CodeMaster/test_launch.sh)",
+      "Bash(/Users/daniel/Documents/aicode/CodeMaster/test_launch.sh)",
+      "Bash(pkill -f \"CodeMaster\")",
+      "Bash(kill 56089)",
+      "Bash(cat /Applications/CodeMaster.app/Contents/Resources/config.json)",
+      "Bash(pkill:*)",
+      "Read(//Applications/CodeMaster.app/Contents/Resources/src/**)",
+      "Bash(kill:*)",
+      "Bash(timeout 10 python3:*)",
+      "Read(//private/tmp/**)",
+      "Bash(osascript:*)",
+      "Bash(lsof:*)",
+      "Bash(python3:*)",
+      "Bash(chmod:*)",
+      "Bash(/Users/daniel/Documents/aicode/CodeMaster/launch_codemaster_gui.sh:*)",
+      "Bash(cat:*)",
+      "Bash(open:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "defaultMode": "bypassPermissions"
+  }
+}

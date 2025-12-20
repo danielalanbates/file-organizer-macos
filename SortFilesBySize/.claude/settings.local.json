@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(python3 -m pip:*)",
+      "Bash(unzip:*)",
+      "Bash(cat:*)",
+      "Bash(./SortFilesBySize:*)",
+      "Bash(pgrep:*)",
+      "Bash(cd:*)",
+      "Bash(source:*)",
+      "Bash(pip install:*)",
+      "Bash(xcodebuild:*)",
+      "Bash(organize:*)",
+      "Bash(chmod:*)",
+      "Bash(git init:*)",
+      "Bash(curl:*)",
+      "Bash(organize_LICENSE.txt)",
+      "Bash(python3:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(osascript:*)",
+      "Bash(pkill:*)",
+      "Bash(timeout 10 python3:*)",
+      "Bash(readlink:*)",
+      "Bash(mdfind:*)",
+      "Bash(open \"/Users/daniel/Library/Mobile Documents/com~apple~CloudDocs/AIcode/03-File_Automation/OrganizeGUI/filegenius.py\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

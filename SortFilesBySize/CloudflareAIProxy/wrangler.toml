@@ -1,0 +1,7 @@
+name = "filegenius-ai-proxy"
+main = "src/index.js"
+compatibility_date = "2024-09-01"
+
+[vars]
+# Set FILEGENIUS_AI_TOKEN via `wrangler secret put FILEGENIUS_AI_TOKEN`
+# Set OPENAI_API_KEY via `wrangler secret put OPENAI_API_KEY`
